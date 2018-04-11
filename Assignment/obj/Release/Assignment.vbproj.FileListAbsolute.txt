@@ -1,0 +1,3 @@
+A:\INF205\Assignment\Assignment\obj\Release\Assignment.vbprojResolveAssemblyReference.cache
+A:\INF205\Assignment\Assignment\obj\Release\Assignment.Resources.resources
+A:\INF205\Assignment\Assignment\obj\Release\Assignment.vbproj.GenerateResource.Cache
