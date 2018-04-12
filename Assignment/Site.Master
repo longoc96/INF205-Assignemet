@@ -81,11 +81,11 @@
                                 <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Manager <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a runat="server" href="">Products</a></li>
-                                    <li><a runat="server" href="~/Products">Customer</a></li>
-                                    <li><a runat="server" href="~/">Purchare</a></li>
-                                    <li><a runat="server" href="~/Products">Purchase-Item</a></li>
-                                    <li><a runat="server" href="~/Products">Category</a></li>
+                                    <li><a runat="server" href="~/Products">Products</a></li>
+                                    <li><a runat="server" href="~/Customer">Customer</a></li>
+                                    <li><a runat="server" href="~/Purchase">Purchare</a></li>
+                                    <li><a runat="server" href="~/Purchase-Item">Purchase-Item</a></li>
+                                    <li><a runat="server" href="~/Category">Category</a></li>
                                 </ul>
                             </li>
          
@@ -156,6 +156,7 @@
             </div>
 
             <script src="Scripts/jquery.min.js"></script>
+            <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
             <script src="Scripts/main.js"></script>
         </footer>

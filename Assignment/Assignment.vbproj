@@ -183,6 +183,8 @@
     <Content Include="Content\themes\base\jquery.ui.slider.css" />
     <Content Include="Content\themes\base\jquery.ui.tabs.css" />
     <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Purchase.aspx" />
+    <Content Include="Customer.aspx" />
     <Content Include="Images\logo.png" />
     <Content Include="Products.aspx" />
     <Content Include="Images\accent.png" />
@@ -271,6 +273,20 @@
     </Compile>
     <Compile Include="Contact.aspx.vb">
       <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Purchase.aspx.designer.vb">
+      <DependentUpon>Purchase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase.aspx.vb">
+      <DependentUpon>Purchase.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Customer.aspx.designer.vb">
+      <DependentUpon>Customer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.aspx.vb">
+      <DependentUpon>Customer.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Products.aspx.designer.vb">
