@@ -59,15 +59,6 @@ Partial Public Class SiteMaster
     Protected WithEvents A3 As Global.System.Web.UI.HtmlControls.HtmlAnchor
 
     '''<summary>
-    '''A4 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents A4 As Global.System.Web.UI.HtmlControls.HtmlAnchor
-
-    '''<summary>
     '''A5 control.
     '''</summary>
     '''<remarks>
@@ -75,6 +66,42 @@ Partial Public Class SiteMaster
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents A5 As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
+    '''A6 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents A6 As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
+    '''A7 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents A7 As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
+    '''A8 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents A8 As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
+    '''A4 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents A4 As Global.System.Web.UI.HtmlControls.HtmlAnchor
 
     '''<summary>
     '''MainContent control.
