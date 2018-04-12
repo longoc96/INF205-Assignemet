@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Customer" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Customer.aspx.vb" Inherits="Assignment.About" %>
+﻿<%@ Page Title="Customer" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Customer.aspx.vb" Inherits="Assignment.Customer" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <div class="container-fluid">
