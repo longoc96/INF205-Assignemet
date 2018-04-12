@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Products
+Partial Public Class Category
 
     '''<summary>
     '''ListView1 control.
