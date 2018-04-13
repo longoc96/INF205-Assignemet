@@ -180,17 +180,41 @@ A3 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Assignment.SiteMaster.A4">
+</member><member name="F:Assignment.SiteMaster.A5">
 	<summary>
-A4 control.
+A5 control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Assignment.SiteMaster.A5">
+</member><member name="F:Assignment.SiteMaster.A6">
 	<summary>
-A5 control.
+A6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.SiteMaster.A7">
+	<summary>
+A7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.SiteMaster.A8">
+	<summary>
+A8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.SiteMaster.A4">
+	<summary>
+A4 control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -239,6 +263,54 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:Assignment._Default.SqlDataSource1">
 	<summary>
 SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.Category.ListView1">
+	<summary>
+ListView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.Category.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.PurchaseItem.ListView1">
+	<summary>
+ListView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.PurchaseItem.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.PurchaseItem.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.PurchaseItem.SqlDataSource3">
+	<summary>
+SqlDataSource3 control.
 </summary>
 	<remarks>
 Auto-generated field.
