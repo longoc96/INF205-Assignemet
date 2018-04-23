@@ -110,7 +110,7 @@
                 </table>
             </LayoutTemplate>
         </asp:ListView>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:nhom5_QLBHConnectionString %>" DeleteCommand="DELETE FROM [purchase_item] WHERE [purchase_id] = @id  DELETE FROM [purchase] WHERE [id] = @id" InsertCommand="INSERT INTO [purchase] ([purchase_no], [customer_id]) VALUES (@purchase_no, @customer_id)" SelectCommand="SELECT p.[id], [purchase_no], [customer_id], [name] FROM [purchase] as p INNER JOIN [customer] as c ON p.customer_id = c.id" UpdateCommand="UPDATE [purchase] SET [purchase_no] = @purchase_no, [customer_id] = @customer_id WHERE [id] = @id">
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM [purchase_item] WHERE [purchase_id] = @id  DELETE FROM [purchase] WHERE [id] = @id" InsertCommand="INSERT INTO [purchase] ([purchase_no], [customer_id]) VALUES (@purchase_no, @customer_id)" SelectCommand="SELECT p.[id], [purchase_no], [customer_id], [name] FROM [purchase] as p INNER JOIN [customer] as c ON p.customer_id = c.id" UpdateCommand="UPDATE [purchase] SET [purchase_no] = @purchase_no, [customer_id] = @customer_id WHERE [id] = @id">
             <DeleteParameters>
                 <asp:Parameter Name="id" Type="Int32" />
             </DeleteParameters>
@@ -124,7 +124,7 @@
                 <asp:Parameter Name="id" Type="Int32" />
             </UpdateParameters>
         </asp:SqlDataSource>
-        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:nhom5_QLBHConnectionString %>" SelectCommand="SELECT [id], [name] FROM [customer]"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [id], [name] FROM [customer]"></asp:SqlDataSource>
 
         </div>
 </asp:Content>

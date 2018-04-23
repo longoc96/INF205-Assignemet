@@ -94,7 +94,7 @@
                 </table>
             </LayoutTemplate>
         </asp:ListView>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:nhom5_QLBHConnectionString %>" DeleteCommand="DELETE FROM [products] WHERE [category_id] = @id DELETE FROM [category] WHERE [id] = @id" InsertCommand="INSERT INTO [category] ([name]) VALUES (@name)" SelectCommand="SELECT [id], [name] FROM [category]" UpdateCommand="UPDATE [category] SET [name] = @name WHERE [id] = @id">
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM [products] WHERE [category_id] = @id DELETE FROM [category] WHERE [id] = @id" InsertCommand="INSERT INTO [category] ([name]) VALUES (@name)" SelectCommand="SELECT [id], [name] FROM [category]" UpdateCommand="UPDATE [category] SET [name] = @name WHERE [id] = @id">
             <DeleteParameters>
                 <asp:Parameter Name="id" Type="Int32" />
             </DeleteParameters>

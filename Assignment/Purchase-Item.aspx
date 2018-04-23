@@ -131,7 +131,7 @@
                 </table>
             </LayoutTemplate>
         </asp:ListView>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:nhom5_QLBHConnectionString %>" DeleteCommand="DELETE FROM [purchase_item] WHERE [id] = @id" InsertCommand="INSERT INTO [purchase_item] ([purchase_id], [product_id], [amount]) VALUES (@purchase_id, @product_id, @amount)" SelectCommand="SELECT pi.[id], pi.[purchase_id],pu.[purchase_no], [product_id],p.[name], [amount], p.price * amount as total_price FROM [purchase_item] pi INNER JOIN [products] p ON
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM [purchase_item] WHERE [id] = @id" InsertCommand="INSERT INTO [purchase_item] ([purchase_id], [product_id], [amount]) VALUES (@purchase_id, @product_id, @amount)" SelectCommand="SELECT pi.[id], pi.[purchase_id],pu.[purchase_no], [product_id],p.[name], [amount], p.price * amount as total_price FROM [purchase_item] pi INNER JOIN [products] p ON
 pi.product_id = p.id INNER JOIN [purchase] pu ON pi.purchase_id = pu.id "
             UpdateCommand="UPDATE [purchase_item] SET [purchase_id] = @purchase_id, [product_id] = @product_id, [amount] = @amount WHERE [id] = @id">
             <DeleteParameters>
@@ -149,8 +149,8 @@ pi.product_id = p.id INNER JOIN [purchase] pu ON pi.purchase_id = pu.id "
                 <asp:Parameter Name="id" Type="Int32" />
             </UpdateParameters>
         </asp:SqlDataSource>
-        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:nhom5_QLBHConnectionString %>" SelectCommand="SELECT [name], [id] FROM [products]"></asp:SqlDataSource>
-        <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:nhom5_QLBHConnectionString %>" SelectCommand="SELECT [purchase_no], [id] FROM [purchase]"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [name], [id] FROM [products]"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [purchase_no], [id] FROM [purchase]"></asp:SqlDataSource>
 
     </div>
 </asp:Content>

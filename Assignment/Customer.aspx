@@ -188,7 +188,7 @@
                 </tr>
             </SelectedItemTemplate>
         </asp:ListView>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:nhom5_QLBHConnectionString %>"
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>"
             DeleteCommand="DELETE FROM purchase_item Where purchase_id in (Select id From purchase Where customer_id = @id)
 	                       DELETE FROM purchase Where customer_id = @id
 	                       DELETE FROM customer Where id = @id"

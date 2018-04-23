@@ -82,7 +82,7 @@
                         </div>
                 </ItemTemplate>
             </asp:DataList>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:nhom5_QLBHConnectionString %>" SelectCommand="SELECT Top 8 [name], [price], [image] FROM [products]">
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT Top 8 [name], [price], [image] FROM [products]">
             </asp:SqlDataSource>
         </div>
 </asp:Content>
