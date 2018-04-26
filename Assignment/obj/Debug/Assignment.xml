@@ -6,7 +6,135 @@ Assignment
 </name>
 </assembly>
 <members>
-<member name="F:Assignment._Default.Image1">
+<member name="F:Assignment.Purchase.ListView1">
+	<summary>
+ListView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.Purchase.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.Purchase.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.Site_Mobile.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.Site_Mobile.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.Site_Mobile.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.Site_Mobile.FeaturedContent">
+	<summary>
+FeaturedContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.Site_Mobile.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.Site_Mobile.ViewSwitcher1">
+	<summary>
+ViewSwitcher1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.Products.ListView1">
+	<summary>
+ListView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.Products.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.Products.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.Category.ListView1">
+	<summary>
+ListView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.Category.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.Customer.ListView1">
+	<summary>
+ListView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment.Customer.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment._Default.Image1">
 	<summary>
 Image1 control.
 </summary>
@@ -46,19 +174,31 @@ SqlDataSource1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="P:Assignment.My.Resources.Resources.ResourceManager">
+</member><member name="P:Assignment.My.MyWebExtension.Computer">
 	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:Assignment.My.Resources.Resources.Culture">
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:Assignment.My.MyWebExtension.User">
 	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="T:Assignment.My.Resources.Resources">
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:Assignment.My.MyWebExtension.Request">
 	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:Assignment.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:Assignment.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:Assignment.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
 </member><member name="F:Assignment.SiteMaster.BundleReference2">
 	<summary>
 BundleReference2 control.
@@ -147,30 +287,19 @@ MainContent control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Assignment.Purchase.ListView1">
+</member><member name="P:Assignment.My.Resources.Resources.ResourceManager">
 	<summary>
-ListView1 control.
+  Returns the cached ResourceManager instance used by this class.
 </summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Assignment.Purchase.SqlDataSource1">
+</member><member name="P:Assignment.My.Resources.Resources.Culture">
 	<summary>
-SqlDataSource1 control.
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
 </summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Assignment.Purchase.SqlDataSource2">
+</member><member name="T:Assignment.My.Resources.Resources">
 	<summary>
-SqlDataSource2 control.
+  A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
 </member><member name="F:Assignment.PurchaseItem.ListView1">
 	<summary>
 ListView1 control.
@@ -198,135 +327,6 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:Assignment.PurchaseItem.SqlDataSource3">
 	<summary>
 SqlDataSource3 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Assignment.Products.ListView1">
-	<summary>
-ListView1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Assignment.Products.SqlDataSource1">
-	<summary>
-SqlDataSource1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Assignment.Products.SqlDataSource2">
-	<summary>
-SqlDataSource2 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Assignment.Category.ListView1">
-	<summary>
-ListView1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Assignment.Category.SqlDataSource1">
-	<summary>
-SqlDataSource1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="P:Assignment.My.MyWebExtension.Computer">
-	<summary>
- Returns information about the host computer.
- </summary>
-</member><member name="P:Assignment.My.MyWebExtension.User">
-	<summary>
- Returns information for the current Web user.
- </summary>
-</member><member name="P:Assignment.My.MyWebExtension.Request">
-	<summary>
- Returns Request object.
- </summary>
-</member><member name="P:Assignment.My.MyWebExtension.Response">
-	<summary>
- Returns Response object.
- </summary>
-</member><member name="P:Assignment.My.MyWebExtension.Log">
-	<summary>
- Returns the Asp log object.
- </summary>
-</member><member name="T:Assignment.My.MyWebExtension">
-	<summary>
- Module used to define the properties that are available in the My Namespace for Web projects.
- </summary>
-	<remarks></remarks>
-</member><member name="F:Assignment.Site_Mobile.Head1">
-	<summary>
-Head1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Assignment.Site_Mobile.HeadContent">
-	<summary>
-HeadContent control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Assignment.Site_Mobile.form1">
-	<summary>
-form1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Assignment.Site_Mobile.FeaturedContent">
-	<summary>
-FeaturedContent control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Assignment.Site_Mobile.MainContent">
-	<summary>
-MainContent control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Assignment.Site_Mobile.ViewSwitcher1">
-	<summary>
-ViewSwitcher1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Assignment.Customer.ListView1">
-	<summary>
-ListView1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Assignment.Customer.SqlDataSource1">
-	<summary>
-SqlDataSource1 control.
 </summary>
 	<remarks>
 Auto-generated field.
