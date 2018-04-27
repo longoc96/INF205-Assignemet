@@ -94,7 +94,7 @@
                         <asp:Label ID="Label2" runat="server" Text='<%# Eval("total_price","${0}")%>' />
                     </td>
                     <td>
-                        <asp:LinkButton ID="EditButton" CssClass="btn btn-primary" runat="server" CommandName="Edit"><i class="glyphicon glyphicon-pencil"></i> Edit</asp:LinkButton>
+                        <asp:LinkButton ID="EditButton" CssClass="btn btn-default" runat="server" CommandName="Edit"><i class="glyphicon glyphicon-pencil"></i> Edit</asp:LinkButton>
                         <asp:LinkButton ID="DeleteButton" CssClass="btn btn-danger" runat="server" CommandName="Delete"><i class="glyphicon glyphicon-trash"></i> Delete</asp:LinkButton>
                     </td>
                 </tr>
