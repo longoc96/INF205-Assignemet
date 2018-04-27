@@ -164,3 +164,9 @@ C:\Users\Fpoly\Documents\GitHub\INF205-Assignemet\Assignment\obj\Debug\Assignmen
 C:\Users\Fpoly\Documents\GitHub\INF205-Assignemet\Assignment\obj\Debug\Assignment.dll
 C:\Users\Fpoly\Documents\GitHub\INF205-Assignemet\Assignment\obj\Debug\Assignment.xml
 C:\Users\Fpoly\Documents\GitHub\INF205-Assignemet\Assignment\obj\Debug\Assignment.pdb
+C:\GITHUB\INF205-Assignemet\Assignment\obj\Debug\Assignment.vbprojResolveAssemblyReference.cache
+C:\GITHUB\INF205-Assignemet\Assignment\obj\Debug\Assignment.Resources.resources
+C:\GITHUB\INF205-Assignemet\Assignment\obj\Debug\Assignment.vbproj.GenerateResource.Cache
+C:\GITHUB\INF205-Assignemet\Assignment\obj\Debug\Assignment.dll
+C:\GITHUB\INF205-Assignemet\Assignment\obj\Debug\Assignment.xml
+C:\GITHUB\INF205-Assignemet\Assignment\obj\Debug\Assignment.pdb

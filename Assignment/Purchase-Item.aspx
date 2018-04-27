@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="Home Page" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Purchase-Item.aspx.vb" Inherits="Assignment.Products" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
+    <div class="nen" style="background-color:#ffd800">
     <div class="container-fluid">
         <h3 style="text-align: center; font-weight: bold;">List Purchase-Item</h3>
         <asp:ListView ID="ListView1" runat="server" DataKeyNames="id" DataSourceID="SqlDataSource1" InsertItemPosition="LastItem">
@@ -153,4 +154,5 @@ pi.product_id = p.id INNER JOIN [purchase] pu ON pi.purchase_id = pu.id "
         <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [purchase_no], [id] FROM [purchase]"></asp:SqlDataSource>
 
     </div>
+        </div>
 </asp:Content>
