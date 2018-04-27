@@ -2,7 +2,7 @@
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <div class="container-fluid">
-        <h3 style="text-align:center;font-weight:bold;">Categories</h3>
+        <h3 style="text-align:center;font-weight:bold;color:blue">Categories</h3>
         <asp:ListView ID="ListView1" runat="server" DataKeyNames="id" DataSourceID="SqlDataSource1" InsertItemPosition="LastItem">
             <AlternatingItemTemplate>
                 <tr style="background-color:#FFF8DC;text-align:center;font-weight:bold">
