@@ -109,3 +109,9 @@ C:\Bao\trunk\Assignment\obj\Debug\Assignment.vbproj.GenerateResource.Cache
 C:\Bao\trunk\Assignment\obj\Debug\Assignment.dll
 C:\Bao\trunk\Assignment\obj\Debug\Assignment.xml
 C:\Bao\trunk\Assignment\obj\Debug\Assignment.pdb
+C:\Users\Acer\Documents\GitHub\INF205-Assignemet\Assignment\obj\Debug\Assignment.vbprojResolveAssemblyReference.cache
+C:\Users\Acer\Documents\GitHub\INF205-Assignemet\Assignment\obj\Debug\Assignment.Resources.resources
+C:\Users\Acer\Documents\GitHub\INF205-Assignemet\Assignment\obj\Debug\Assignment.vbproj.GenerateResource.Cache
+C:\Users\Acer\Documents\GitHub\INF205-Assignemet\Assignment\obj\Debug\Assignment.dll
+C:\Users\Acer\Documents\GitHub\INF205-Assignemet\Assignment\obj\Debug\Assignment.xml
+C:\Users\Acer\Documents\GitHub\INF205-Assignemet\Assignment\obj\Debug\Assignment.pdb
