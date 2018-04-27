@@ -104,10 +104,10 @@
             </ItemTemplate>
             <LayoutTemplate>
                 <table runat="server" class="table table-responsive table-hover">
-                    <tr runat="server">
+                    <tr runat="server" >
                         <td runat="server">
                             <table id="itemPlaceholderContainer" runat="server" border="1" class="table table-responsive" style="width: 80%; margin: 10px auto">
-                                <tr runat="server" class="bg-primary">
+                                <tr runat="server" style="background:red">
                                     <th style="text-align: center" runat="server">Id</th>
                                     <th style="text-align: center" runat="server">Image</th>
                                     <th style="text-align: center" runat="server">Name</th>

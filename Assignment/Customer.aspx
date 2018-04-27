@@ -5,7 +5,7 @@
         <h3 style="text-align: center; font-weight: bold;">List Customers</h3>
         <asp:ListView ID="ListView1" runat="server" DataKeyNames="id" DataSourceID="SqlDataSource1" InsertItemPosition="LastItem">
             <AlternatingItemTemplate>
-                <tr style="background-color: #FFF8DC; text-align: center; font-weight: bold">
+                <tr style="background-color: #6633CC; text-align: center; font-weight: bold">
                     <td>
                         <asp:Label ID="idLabel" runat="server" Text='<%# Eval("id") %>' />
                     </td>
@@ -103,12 +103,12 @@
                 </tr>
             </InsertItemTemplate>
             <ItemTemplate>
-                <tr style="background-color: #DCDCDC; color: #000000; text-align: center; font-weight: bold">
+                <tr style="background-color: #6633CC; color: #000000; text-align: center; font-weight: bold">
                     <td>
                         <asp:Label ID="idLabel" runat="server" Text='<%# Eval("id") %>' />
                     </td>
                     <td>
-                        <asp:Image ID="imageLabel" runat="server" ImageUrl='<%# Eval("avatar")%>' Width="100px" Height="100px" />
+                        <asp:Image ID="imageLabel" runat="server" ImageUrl='<%# Eval("avatar")%>' Width="100px" Height="100px"  />
                     </td>
                     <td>
                         <asp:Label ID="nameLabel" runat="server" Text='<%# Eval("name") %>' />
@@ -137,14 +137,14 @@
                         <td id="Td1" runat="server">
                             <table id="itemPlaceholderContainer" runat="server" border="1" class="table table-responsive" style="width: 95%; margin: 10px auto">
                                 <tr id="Tr2" runat="server" class="bg-primary">
-                                    <th id="Th1" style="text-align: center" runat="server">Id</th>
-                                    <th id="Th2" style="text-align: center" runat="server">Image</th>
-                                    <th id="Th3" style="text-align: center" runat="server">Name</th>
-                                    <th id="Th4" style="text-align: center" runat="server">Gender</th>
-                                    <th id="Th5" style="text-align: center" runat="server">Address</th>
-                                    <th id="Th7" style="text-align: center" runat="server">Phone</th>
-                                    <th id="Th8" style="text-align: center" runat="server">Email</th>
-                                    <th id="Th6" runat="server"></th>
+                                    <th id="Th1" style="text-align: center;background:#6633CC" runat="server">Id</th>
+                                    <th id="Th2" style="text-align: center;background:#6633CC" runat="server">Image</th>
+                                    <th id="Th3" style="text-align: center;background:#6633CC" runat="server">Name</th>
+                                    <th id="Th4" style="text-align: center;background:#6633CC" runat="server">Gender</th>
+                                    <th id="Th5" style="text-align: center;background:#6633CC" runat="server">Address</th>
+                                    <th id="Th7" style="text-align: center;background:#6633CC" runat="server">Phone</th>
+                                    <th id="Th8" style="text-align: center;background:#6633CC" runat="server">Email</th>
+                                    <th id="Th6" style="background:#6633CC" runat="server">Action</th>
                                 </tr>
                                 <tr id="itemPlaceholder" runat="server">
                                 </tr>
